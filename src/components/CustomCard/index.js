@@ -24,6 +24,8 @@ const CustomCard = ({ user, handleClick }) => {
                 }}
                 onCLick={() => handleClick(user.login)}
                 variant="body1">
+                    {user.login}
+                  
               </Typography>
             </Grid>
           </Grid>
