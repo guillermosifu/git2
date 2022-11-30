@@ -11,7 +11,7 @@ const Search =()=>{
     return(
         <Container maxWidth ="sm" sx={{
             display :"flex",
-            alingItems :"center",
+            alignItems :"center",
             height :"100vh"
         }}>
             <Grid container spacing={3}>
@@ -22,7 +22,7 @@ const Search =()=>{
                     fullWidth/>
                 </Grid>
                 <Grid item xs={12}>
-                    <Button>
+                    <Button variant="contained" fullWidth>
                         Buscar
                     </Button>
 
