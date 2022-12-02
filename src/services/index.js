@@ -12,7 +12,6 @@ export const searchUsers = async (username)=>{
     }catch(error){
         return error;
     }
-
 }
 
 //fucnion que trae el detalle de cada usuario

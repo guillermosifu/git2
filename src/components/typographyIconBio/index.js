@@ -1,9 +1,12 @@
 import { Typography } from "@mui/material";
 import BusinessRoundedIcon from "@mui/icons-material/BusinessRounded";
+import EmailRoundedIcon from "@mui/icons-material/EmailRounded"
+
 
 const TypographyIconBio = ({ text, icon }) => {
   const icons = {
     company: <BusinessRoundedIcon />,
+    email: <EmailRoundedIcon/>,
   };
 
   return (
