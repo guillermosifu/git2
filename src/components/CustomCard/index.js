@@ -22,7 +22,7 @@ const CustomCard = ({ user, handleClick }) => {
                 {{
                   cursor: "pointer",
                 }}
-                onCLick={() => handleClick(user.login)}
+                onClick={() => handleClick(user.login)}
                 variant="body1">
                     {user.login}
                   

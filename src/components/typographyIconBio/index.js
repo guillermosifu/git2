@@ -3,7 +3,7 @@ import BusinessRoundedIcon from "@mui/icons-material/BusinessRounded";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded"
 
 
-const TypographyIconBio = ({ text, icon }) => {
+const TypographyIconBio = ({ text, icon,mt=2 }) => {
   const icons = {
     company: <BusinessRoundedIcon />,
     email: <EmailRoundedIcon/>,
